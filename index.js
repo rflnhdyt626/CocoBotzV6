@@ -660,13 +660,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             var but = [
           {
             "urlButton": {
-              "displayText": "YouTube Creator",
+              "displayText": "Instagram Creator",
               "url": `${youtube}`
             }
           },
           {
             "urlButton": {
-              "displayText": "Rest Api's",              
+              "displayText": "Github",              
               "url": `${myweb}`
 
             }
@@ -1128,13 +1128,13 @@ break
 						var but = [
 						{
 							"urlButton": {
-								"displayText": "YouTube Creator",
+								"displayText": "Instagram Creator",
 								"url": `${youtube}`
 								}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1163,13 +1163,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1200,13 +1200,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1237,13 +1237,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1274,13 +1274,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1311,13 +1311,13 @@ break
 							var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1348,13 +1348,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1385,13 +1385,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1421,13 +1421,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1457,13 +1457,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1494,13 +1494,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1531,13 +1531,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1567,13 +1567,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1603,13 +1603,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1639,13 +1639,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1675,13 +1675,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1711,13 +1711,13 @@ break
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1748,13 +1748,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1784,13 +1784,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
@@ -1822,13 +1822,13 @@ case 'textprocmd': case 'textpromenu':
  var but = [
 							{
 								"urlButton": {
-									"displayText": "YouTube Creator",
+									"displayText": "Instagram Creator",
 									"url": `${youtube}`
 									}
 								},
 								{
 									"urlButton": {
-										"displayText": "Rest Api's",
+										"displayText": "Github",
 										"url": `${myweb}`
 										}
 										},
