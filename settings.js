@@ -20,7 +20,7 @@ global.available = true //status online (online)
 // Other
 global.botname = "CocoBotz"
 global.ownername= "Cocopie"
-global.myweb ="https://api-alphabot.herokuapp.com/"
+global.myweb ="https://github.com/iCocopie/CocoBotzV6"
 global.youtube = "https://instagram.com/ryuuu.rs"
 global.github = "https://github.com/iCocopie"
 global.ownernomer = "628992029499"
