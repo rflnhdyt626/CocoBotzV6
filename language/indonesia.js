@@ -86,16 +86,15 @@ exports.notNum = (q) => {
     return `"${q}", bukan angka!`
 }
 exports.menunya = (salam, pushname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya Alphabot-Md, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+	return`Hai Kak ${pushname} 👋 Selamat ${salam} , 
+Saya CocoBotz-Md, Bot Ini Adalah Beta Multi-Device Whatsapp. 
+Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya 🙏      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu CocoBotz-Md :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -104,7 +103,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}ping
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
-╰❒ ${prefix}donate
+├ ${prefix}donate
+╰❒
 
 
 ╭─❒ 「 Owner 」 
@@ -127,7 +127,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}self
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [reply pesan bot]
-╰❒ ${prefix}setppbot [reply image]
+├ ${prefix}setppbot [reply image]
+╰❒
 
 
 ╭─❒ 「 Database 」 
@@ -141,7 +142,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}addmsg [nama file]
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
-╰❒ ${prefix}delmsg [nama file]
+├ ${prefix}delmsg [nama file]
+╰❒
 
 
 ╭─❒ 「 Group 」 
@@ -159,24 +161,28 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}linkgc
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
-╰❒ ${prefix}hidetag [text]
+├ ${prefix}hidetag [text]
+╰❒
 
 ╭─❒ 「 Anime 」 
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
-╰❒ ${prefix}character [query]
+├ ${prefix}character [query]
+╰❒
 
 ╭─❒ 「 Tag 」 
 ├ ${prefix}stickertag
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
-╰❒ ${prefix}imagetag [query]
+├ ${prefix}imagetag [query]
+╰❒
 
 ╭─❒ 「 Stalking 」 
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
-╰❒ ${prefix}ytstalk [channel]
+├ ${prefix}ytstalk [channel]
+╰❒
 
 
 ╭─❒ 「 Search 」 
@@ -187,7 +193,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}wattpad [query]
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
-╰❒ ${prefix}pinterest [query]
+├ ${prefix}pinterest [query]
+╰❒
 
 
 ╭─❒ 「 Converter 」 
@@ -196,6 +203,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
+╰❒
 
 
 ╭─❒ 「 Image Effect 」 
@@ -232,7 +240,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}challenger [reply image/stiker]
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
-╰❒ ${prefix}beautiful [reply image/stiker]
+├ ${prefix}beautiful [reply image/stiker]
+╰❒
 
 
 ╭─❒ 「 Sticker Effect 」 
@@ -254,7 +263,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}greyscale [reply image/stiker]
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
-╰❒ ${prefix}invertgreyscale [reply image/stiker]
+├ ${prefix}invertgreyscale [reply image/stiker]
+╰❒
 
 
 ╭─❒ 「 Download 」 
@@ -281,7 +291,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}soundcloud [link]
 ├ ${prefix}gitclone [link repo]
 ├ ${prefix}mediafire [link]
-╰❒ ${prefix}twitter link
+├ ${prefix}twitter link
+╰❒
 
 
 ╭─❒ 「 Random Anime 」
@@ -315,87 +326,12 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}wink
 ├ ${prefix}poke
 ├ ${prefix}dance
-╰❒ ${prefix}cringe
+├ ${prefix}cringe
+╰❒
 
 ╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
+├ Astaghfirullah😡
+╰❒ 
 
 ╭─❒ 「 Textpro Menu 」
 ├ ${prefix}halloween2 text|text2
@@ -577,7 +513,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}3dchrome text
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
-╰❒ ${prefix}metalg text
+├ ${prefix}metalg text
+╰❒
 
 
 ╭─❒ 「 Others 」
@@ -590,7 +527,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒
 
 ╭─❒ 「 TqTo 」 
-├ My God
+├ Allah SWT
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
@@ -600,7 +537,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Rashid
 ├ ZeeoneOfc
 ├ Penyedia Module
-╰❒ And All Support
+├ And All Support
+╰❒
     `
 }
 
@@ -637,28 +575,29 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
 ⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan CocoBotz
 😖🙏
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 Lu𝗉𝖺 I𝗇𝗍𝗋𝗈 Ka𝗄  🤗
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├ 𝖴𝗆𝗎𝗋 :
 ├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
 ├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+├ 𝖯𝖺𝗍𝗎𝗁𝗂 R𝗎𝗅𝖾𝗌 G𝗋𝗎𝗉 Y𝖺 K𝖺k ~
+╰`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
+	return`Yah Kok Out 😣 
 Goodbye`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://github.com/zeeoneofc/Alphabot-Md
+Recode : https://github.com/iCocopie/CocoBotzV6
 `
 }
 exports.tos = (ownernomer) => {
@@ -921,84 +860,8 @@ exports.ranime = (prefix) =>{
 
 exports.nsfw = (prefix) =>{
 	return`╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
+├ Astaghfirullah😡
+╰❒
 `
 }
 
@@ -1203,7 +1066,7 @@ return`╭─❒ 「 Others 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├ My God
+├ Allah SWT
 ├ My Parents
 ├ Fatih A.
 ├ Ferdi
